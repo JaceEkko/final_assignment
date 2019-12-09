@@ -1,0 +1,67 @@
+.Header{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: solid .3px;
+  margin-bottom: 2vmin;
+  left:0;
+  top:0;
+  width: 100%;
+  background-color: rgb(255,250,240);
+}
+#HeaderTitle{
+  font-size: 9vmin;
+  font-family: 'BenchNine', sans-serif;
+  letter-spacing: 2vmin;
+  margin: 2vmin 0 0 0;
+}
+.HeaderPageBar{
+  display: flex;
+  justify-content: space-between;
+}
+.HeaderPageBar p{
+  margin: 1vmin 5vmin 0 5vmin;
+  font-size: 5vmin;
+  font-family: 'BenchNine', sans-serif;
+  transition: .5s;
+}
+.HeaderPageBar p:hover{
+  background-color: black;
+  color: white;
+}
+.HeaderPageBar h1{
+  margin: 1vmin 5vmin 0 5vmin;
+  font-size: 5vmin;
+  font-family: 'BenchNine', sans-serif;
+}
+
+.Footer{
+  display: flex;
+  position: absolute;
+  bottom: : 0;
+  left: 0;
+  justify-content: space-around;
+  font-size: 5vmin;
+  font-family: 'BenchNine', sans-serif;
+  width: 100%;
+  color: black;
+  border-top: solid .3px;
+  margin-top: 2vmin;
+}
+
+body{
+  background-color: rgb(255,250,240);
+}
+
+@media screen and (max-width: 1142px){
+  .HeaderPageBar{
+    flex-direction: column;
+  }
+
+  .Footer{
+    flex-direction: column;
+    align-items: center;
+    margin: .3vmin;
+  }
+}

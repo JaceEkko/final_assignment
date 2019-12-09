@@ -1,0 +1,59 @@
+.ProjectsMasonLayout{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;/*1fr 1fr 1fr 1fr*/
+  margin-top: 24vmin;
+}
+.ProjectsMasonLayout_Elements{
+  display: flex;
+  padding-bottom: 20vmin;
+  margin: .5vmin;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ProjectsMasonLayout_Elements div{
+  /* justify-content: flex-start; */
+  position: absolute;
+  background-color: white;
+  font-size: 3vmin;
+  font-family: 'Dosis', sans-serif;
+}
+#ARVR{
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+  background-color: green;
+  /* background-image: url("Images/ARVR.jpg"); */
+  background-size: cover;
+}
+#Games{
+  grid-column-end: span 2;
+  background-color: blue;
+  /* background-image: url("Images/Games.jpg"); */
+  background-size: cover;
+}
+#Programming{
+  grid-column-end: span 2;
+  background-color: red;
+}
+#Websites{
+  background-color: orange;
+}
+#Audio{
+  background-color: yellow;
+  /* background-image: url("Images/Audio.jpg"); */
+  background-size: cover;
+}
+#Models{
+  background-color: grey;
+}
+#Video{
+  background-color: purple;
+}
+
+@media screen and (max-width: 1142px){
+  .ProjectsMasonLayout{
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;/*1fr 1fr 1fr 1fr*/
+    margin-top: 40vmin;
+  }
+}
