@@ -35,6 +35,9 @@ function createProjectPage(project){
       console.log(contentAndTag[0], " ", contentAndTag[1]);
 
       var tag = document.createElement(contentAndTag[1]); //create a tag based on what was specified in the JSON
+      if(contentAndTag[1] == "IMG" && contentAndTag[2] == "Show"){
+        tag.src = contentAndTag[0];
+      }
       if(contentAndTag[1] == "VIDEO"){ //the tag I want is a VIDEO
         tag.setAttribute("controls", "controls");
         tag_source = document.createElement("SOURCE");

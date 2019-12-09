@@ -6,48 +6,92 @@
 }
 .ProjectsMasonLayout_Elements{
   display: flex;
-  padding-bottom: 20vmin;
   margin: .5vmin;
   background-position: center;
   background-repeat: no-repeat;
 }
 .ProjectsMasonLayout_Elements div{
-  /* justify-content: flex-start; */
-  position: absolute;
-  background-color: white;
-  font-size: 3vmin;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(10,10,10,.0);
+  color: rgba(255,255,255,.0);
+  font-size: 12vmin;
+  text-align: center;
   font-family: 'Dosis', sans-serif;
+  transition: .5s;
 }
+.ProjectsMasonLayout_Elements div:hover{
+  background-color: rgba(10,10,10,.5);
+  color: white;
+}
+
+
 #ARVR{
   grid-column-end: span 2;
   grid-row-end: span 2;
   background-color: green;
-  /* background-image: url("Images/ARVR.jpg"); */
+  background-image: url("Images/ARVR.jpg");
   background-size: cover;
 }
 #Games{
   grid-column-end: span 2;
   background-color: blue;
-  /* background-image: url("Images/Games.jpg"); */
+  background-image: url("Images/Games.jpg");
   background-size: cover;
 }
 #Programming{
   grid-column-end: span 2;
-  background-color: red;
+  background-color: white;
+  background-image: url("Images/Programming.jpg");
+  background-size: cover;
 }
 #Websites{
+  grid-column-end: span 2;
   background-color: orange;
+  background-image: url("Images/Websites.jpeg");
+  background-size: cover;
 }
 #Audio{
   background-color: yellow;
-  /* background-image: url("Images/Audio.jpg"); */
+  background-image: url("Images/Audio.jpg");
   background-size: cover;
 }
 #Models{
   background-color: grey;
+  background-image: url("Images/Models.JPG");
+  background-size: cover;
 }
 #Video{
   background-color: purple;
+  background-image: url("Images/Video.jpg");
+  background-size: cover;
+}
+
+.AboutLayout{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: .5em;
+}
+.AboutLayout img{
+  width: 100%;
+  grid-column-end: span 1;
+}
+.AboutLayout p{
+  grid-column-end: span 1;
+  font-size: 5.5vmin;
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+}
+
+.Divider{
+  display: flex;
+  justify-content: center;
+  border-top: solid .3px;
+  line-height: 0px;
+  margin: 10vmin 25vmin 10vmin 25vmin;
 }
 
 @media screen and (max-width: 1142px){
@@ -55,5 +99,13 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25% 25% 25%;/*1fr 1fr 1fr 1fr*/
     margin-top: 40vmin;
+  }
+
+  .AboutLayout img{
+    width: 100%;
+    grid-column-end: span 2;
+  }
+  .AboutLayout p{
+    grid-column-end: span 2;
   }
 }
