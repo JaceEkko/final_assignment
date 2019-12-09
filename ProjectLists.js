@@ -139,7 +139,7 @@ var audio_project_list = [
 var models_project_list = [
   {
     "id" : "PM_0",
-    "projectMainImage" : "url(Images/Models.JPG) | IMG",
+    "projectMainImage" : "url(Images/Models.JPG) | IMG | Hide",
     "mainSource" : "Images/Models.JPG | IMG | Show",
     "Title" : "GAUSS RIFLE",
     "Created In: " : "Maya | P",

@@ -70,7 +70,10 @@ function createProjectPage(project){
           tag.innerHTML = contentAndTag[0];
         }
       }
-      projDiv.appendChild(tag);
+
+      if(contentAndTag[2] != "Hide"){
+        projDiv.appendChild(tag);
+      }
     }
   }
 }
