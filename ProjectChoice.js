@@ -17,6 +17,8 @@ function createProjectList(project_list){
       var listChoice = proj_element.id;
       console.log(listChoice);
       localStorage.setItem("storageNameProj", listChoice);
+
+      location.href='projectIndiv.html';
     });
     proj_element_link.appendChild(proj_element); //add div to the link element
 
