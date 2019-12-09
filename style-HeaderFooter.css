@@ -23,6 +23,7 @@
 .HeaderPageBar a{
   margin: 1vmin 5vmin 0 5vmin;
   font-size: 5vmin;
+  color: black;
   font-family: 'BenchNine', sans-serif;
   transition: .5s;
 }
