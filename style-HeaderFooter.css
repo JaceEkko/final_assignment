@@ -31,6 +31,17 @@
   background-color: black;
   color: white;
 }
+.HeaderPageBar p{
+  margin: 1vmin 5vmin 0 5vmin;
+  font-size: 5vmin;
+  color: black;
+  font-family: 'BenchNine', sans-serif;
+  transition: .5s;
+}
+.HeaderPageBar p:hover{
+  background-color: black;
+  color: white;
+}
 .HeaderPageBar h1{
   margin: 1vmin 5vmin 0 5vmin;
   font-size: 5vmin;
