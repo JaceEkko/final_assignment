@@ -22,7 +22,7 @@
 var arvr_project_list = [
   {//VRTerraformGallatin
     "id" : "PAV_0",
-    "projectMainImage" : "url(Images/GallatinTerraformScreenShot.PNG) | IMG",
+    "projectMainImage" : "url(Images/GallatinTerraformScreenShot.PNG) | IMG | Hide",
     "Title" : "TERRAFORM",
     "mainSource" : "https://www.youtube.com/embed/NPh1jtXJtcg | IFRAME",
     "View Code" : "https://github.com/JaceEkko/GallatinFinalProject2019/tree/master/Scripts | BUTTON",
@@ -34,7 +34,7 @@ var arvr_project_list = [
   },
   {//MixedRealityLab
     "id" : "PAV_1",
-    "projectMainImage" : "url(Images/MixedRealityVIPScreenShot.PNG) | IMG",
+    "projectMainImage" : "url(Images/MixedRealityVIPScreenShot.PNG) | IMG | Hide",
     "Title" : "MIXED REALITY LABORATORY",
     "mainSource" : "https://www.youtube.com/embed/jX398Pg70PY | IFRAME",
     "View Code" : "null",
@@ -48,7 +48,7 @@ var arvr_project_list = [
 var games_project_list = [
   { //AlphaVOmega
     "id" : "PG_0",
-    "projectMainImage" : "url(Images/AlphaVOmegaScreenShot.png) | IMG",
+    "projectMainImage" : "url(Images/AlphaVOmegaScreenShot.png) | IMG | Hide",
     "Title" : "ALPHA VS OMEGA",
     "mainSource" : "https://www.youtube.com/embed/QAUJuclvRI8 | IFRAME",
     "View Code" : "https://github.com/JaceEkko/AlphaVOmega_BossBattleGame/tree/master/Scripts | BUTTON",
@@ -58,7 +58,7 @@ var games_project_list = [
   },
   {//ThreeWorlds
     "id" : "PG_1",
-    "projectMainImage" : "url(Images/ThreeWorldsScreenShot.png) | IMG",
+    "projectMainImage" : "url(Images/ThreeWorldsScreenShot.png) | IMG | Hide",
     "Title" : "THREE WORLDS",
     "mainSource" : "https://www.youtube.com/embed/0Qz8W3e2flg | IFRAME",
     "View Code" : "https://github.com/JaceEkko/ThreeWorlds_PlatformerGame/tree/master/Scripts | BUTTON",
@@ -68,7 +68,7 @@ var games_project_list = [
   },
   {//FatAsstronaut
     "id" : "PG_2",
-    "projectMainImage" : "url(Images/FatAsstronautScreenShot.png) | IMG",
+    "projectMainImage" : "url(Images/FatAsstronautScreenShot.png) | IMG | Hide",
     "Title" : "FAT ASSTRONAUT",
     "mainSource" : "https://www.youtube.com/embed/E2H_UvxdtDI | IFRAME",
     "View Code" : "https://github.com/JaceEkko/FatAsstronaut_2DShooterGame/tree/master/Scripts | BUTTON",
@@ -80,19 +80,19 @@ var games_project_list = [
 var programming_project_list = [
   {
     "id" : "PP_0",
-    "projectMainImage" : "url(Images/testImage.jpg) | IMG",
+    "projectMainImage" : "url(Images/testImage.jpg) | IMG | Hide",
     "Created In: " : "Python | P"
   },
   {
     "id" : "PP_1",
-    "projectMainImage" : "url(Images/testImage2.jpg) | IMG",
+    "projectMainImage" : "url(Images/testImage2.jpg) | IMG | Hide",
     "Created In: " : "Unity, C# | P"
   }
 ]
 var websites_project_list = [
   { //ConcreteOasis
     "id" : "PW_0",
-    "projectMainImage" : "url(Images/ConcreteOasisScreenShot.PNG) | IMG",
+    "projectMainImage" : "url(Images/ConcreteOasisScreenShot.PNG) | IMG | Hide",
     "Title" : "CONCRETE OASIS",
     "View Website" : "https://jaceekko.github.io/midterm-webiste/ | BUTTON",
     "View Code" : "https://github.com/JaceEkko/midterm-webiste | BUTTON",
@@ -103,7 +103,7 @@ var websites_project_list = [
   },
   { //PureWater
     "id" : "PW_1",
-    "projectMainImage" : "url(Images/PureWaterScreenShot.PNG) | IMG",
+    "projectMainImage" : "url(Images/PureWaterScreenShot.PNG) | IMG | Hide",
     "Title" : "PURE WATER",
     "View Website" : "https://jaceekko.github.io/movement-website/ | BUTTON",
     "View Code" : "https://github.com/JaceEkko/movement-website | BUTTON",
@@ -116,7 +116,7 @@ var websites_project_list = [
 var audio_project_list = [
   { //Afterglow Remix
     "id" : "PA_0",
-    "projectMainImage" : "url(Images/testImage.jpg) | IMG",
+    "projectMainImage" : "url(Images/testImage.jpg) | IMG | Hide",
     "Title" : "AFTERGLOW REMIX",
     "mainSource" : "Audio/Assignment3_11-4-19__3_RENDER.wav | AUDIO",
     "Original Song" : "http://cambridge-mt.com/ms/mtk/#KeystoneAngel | BUTTON",
@@ -127,7 +127,7 @@ var audio_project_list = [
   },
   { //First Original Song
     "id" : "PA_1",
-    "projectMainImage" : "url(Images/testImage2.jpg) | IMG",
+    "projectMainImage" : "url(Images/testImage2.jpg) | IMG | Hide",
     "Title" : "FIRST ORIGINAL SONG",
     "mainSource" : "Audio/Assignment4_11-20-19_7_RENDER.wav | AUDIO",
     "Created In: " : "Reaper | P",
