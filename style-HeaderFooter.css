@@ -20,13 +20,13 @@
   display: flex;
   justify-content: space-between;
 }
-.HeaderPageBar p{
+.HeaderPageBar a{
   margin: 1vmin 5vmin 0 5vmin;
   font-size: 5vmin;
   font-family: 'BenchNine', sans-serif;
   transition: .5s;
 }
-.HeaderPageBar p:hover{
+.HeaderPageBar a:hover{
   background-color: black;
   color: white;
 }

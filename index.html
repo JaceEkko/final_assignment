@@ -13,6 +13,8 @@
   </head>
   <body>
 
+    <a name="MProj"></a>
+
     <div class=ProjectsMasonLayout>
       <div id=ARVR class=ProjectsMasonLayout_Elements onclick="ChooseList(this)">
         <div>Augmented Reality</div>
@@ -45,26 +47,30 @@
 
     <div class=Divider></div>
 
-    <div class=AboutLayout>
-      <img src="Images/AboutMe.jpg"></img>
-      <p>Software engineering student specializing in augmented reality, virtual reality, and computer vision.
-         Demonstrated professional and academic experience in prototyping, back-end development, front-end development,
-         and DevOps. Possesses excellent verbal and written communication skills</p>
-    </div>
+    <a name=AM>
+      <div class=AboutLayout>
+        <img src="Images/AboutMe.jpg"></img>
+        <p>Software engineering student specializing in augmented reality, virtual reality, and computer vision.
+           Demonstrated professional and academic experience in prototyping, back-end development, front-end development,
+           and DevOps. Possesses excellent verbal and written communication skills</p>
+      </div>
+    </a>
 
     <div class=Header>
       <p id=HeaderTitle>JOHNATHAN KNOX</p>
       <div class=HeaderPageBar>
-        <p>My Projects</p>
-        <p>About Me</p>
-        <p>Contact Me</p>
+        <a href="#MProj">My Projects</a>
+        <a href="#AM">About Me</a>
+        <a href="#Con">Contact Me</a>
       </div>
     </div>
 
-    <div class=Footer>
-      <p>Email: johnknox@nyu.edu</p>
-      <p>LinkedIn: Johnathan Knox</p>
-    </div>
+    <a name=Con>
+      <div class=Footer name="Con">
+        <p>Email: johnknox@nyu.edu</p>
+        <p>LinkedIn: Johnathan Knox</p>
+      </div>
+    </a>
 
     <!--javascript functionality-->
     <script class=categoryBtn type="text/javascript" src="ProjectListChoice.js"></script>
